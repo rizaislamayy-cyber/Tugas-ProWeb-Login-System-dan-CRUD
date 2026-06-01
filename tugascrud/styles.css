@@ -1,0 +1,69 @@
+* {
+    font-family: verdana, sans-serif;
+}
+
+
+/* Menghilangkan margin dan padding bawaan */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+}
+
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Menu */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Link */
+.nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* Efek hover */
+.nav-links a:hover {
+    color: #f4b400;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+    font-size: 13px;
+    margin-right: 20px;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
